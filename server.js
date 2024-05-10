@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const bcrypt = require('bcrypt');
 const User = require('./User');  // Ensure this path is correct
-
+//
 const app = express();
 app.use(express.json());
 
